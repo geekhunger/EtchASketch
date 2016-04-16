@@ -13,10 +13,10 @@
 	<key>Dependencies</key>
 	<array>
 		<string>Prettify</string>
-		<string>StatusBar</string>
 		<string>CodeaCommunity</string>
-		<string>Backup</string>
 		<string>Pretty</string>
+		<string>Hooks</string>
+		<string>Debugger</string>
 	</array>
 	<key>Description</key>
 	<string>No description available</string>

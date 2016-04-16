@@ -12,9 +12,9 @@ function setup()
     sprite("Dropbox:iron filings", 0, 0, WIDTH, HEIGHT)
     setContext()
     
-    print("* Drag to etch.")
-    print("* Press Home and Power buttons simultaniously to save your sketch. - Use native 'Photos' app to share your creation.")
-    print("* Shake to start over.")
+    print("* Drag to etch")
+    print("* Press Home and Power buttons simultaniously to save your sketch. - Use native 'Photos' app to share your creation")
+    print("* Shake to start over")
 end
 
 function draw()
