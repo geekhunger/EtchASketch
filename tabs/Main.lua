@@ -36,7 +36,8 @@ function draw()
     --Etch-A-Sketch to an image
     if joystick then
         setContext(canvas)
-        blendMode(ZERO, ONE, ZERO, ONE_MINUS_SRC_ALPHA)
+        --blendMode(ZERO, ONE, ZERO, ONE_MINUS_SRC_ALPHA)
+        blendMode(ZERO, ONE_MINUS_SRC_ALPHA)
         canvas.premultiplied = false
         
         local point = {
